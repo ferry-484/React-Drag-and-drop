@@ -9,4 +9,5 @@ export const URLDATA = {
   ctupload: API_URL + "/api/Ctscans/upload-ctscan",
   ctdownload: API_URL + "/api/Containers/download-files",
   ip3notification: API_URL + "/api/Ctscans/request-ip3",
+  
 };
