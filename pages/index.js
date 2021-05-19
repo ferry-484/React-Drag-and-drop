@@ -3,9 +3,7 @@ import Head from "next/head";
 import { useEffect } from 'react';
 import ClientOnly from "../components/clientOnly";
 import { default as FirstComponent } from "../components/FormDefault";
-import DragAndDrop from "./DragAndDrop";
-import FileUpload from "./FileUpload";
-
+import DownloadFile from "./DownloadFile";
 export default function ClientSide() {
   return (
     <div>
@@ -20,8 +18,7 @@ export default function ClientSide() {
       <main >
         <ClientOnly>
           <FirstComponent />
-          <DragAndDrop />
-          <FileUpload />
+          <DownloadFile />
         </ClientOnly>
       </main>
     </div>
